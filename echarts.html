@@ -26,7 +26,8 @@
             data:['联盟广告','视频广告'],
             textStyle: {
                 fontSize:'20'
-            }
+            },
+            left:20,
         },
         dataZoom: [
             {
@@ -71,14 +72,15 @@
         ],
         toolbox: {
             itemSize:30,
+            itemGap:18,
             show:true,
+            right:20,
             feature:{
                 dataZoom: {
                     yAxisIndex:"none",
                 },
                 restore: {},
                 magicType : {show: true, type: ['line', 'bar']}
-
                               　//其他功能性按钮查看官网进行增加，包括（显示数据，下载图片，改为柱状图等）
             }
         },
